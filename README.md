@@ -12,7 +12,7 @@ Hands-on lab exercises and detailed lab reports covering network analysis, syste
 - Host file manipulation
 - OSPF routing configuration
 
-**[View Labs Documentation →](./labs/README.md)**
+**[View Lab Documentation →](./labs/README.md)**
 
 ### [🦠 Malware Analysis](./malware/)
 Malware analysis projects using Ghidra and reverse engineering techniques.
