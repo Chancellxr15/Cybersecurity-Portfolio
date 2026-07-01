@@ -164,6 +164,30 @@ The Wazuh dashboard successfully captured and displayed all security events from
 
 *Figure 9: Comprehensive Event Logging - Complete forensic audit trail of all security events across AD-integrated infrastructure*
 
+# **Active Response: Detection Logic & Performance**
+
+Beyond confirming that Active Response blocked the attacks, it's worth breaking down how the detection actually triggers and how fast it responds — this is the core value of automated response versus manual log review.
+
+## **How the Detection Triggers**
+
+Wazuh's Active Response is rule-driven rather than manually reviewed. On the Linux endpoint, repeated failed SSH authentication attempts (Rule 5710, Level 5 - "sshd: Attempt to login using a non-existent user") are correlated by Wazuh's analysis engine. Once the attempt pattern crosses the configured threshold, it fires **Rule 651 - "Host Blocked by firewall-drop Active Response"** (Level 3), which automatically executes a firewall-drop command to block the offending IP at the OS level. On Windows, the equivalent flow uses netsh.exe commands (Rule 657) to add a blocking firewall rule in response to repeated authentication failures.
+
+## **Measured Response Time**
+
+Using timestamps captured directly from the Wazuh event log during testing, the time between the last recorded failed login attempt and the automated block firing was consistently under 2 seconds:
+
+-   Failed SSH attempt logged at 13:44:19.0 → Firewall block executed at 13:44:20.7 (~1.7 seconds)
+
+This is the entire detect → correlate → respond cycle happening without manual intervention - collapsing Mean Time to Response (MTTR) from what would typically be minutes to hours of manual analyst response, down to single-digit seconds.
+
+## **What I'd Tune Next**
+
+-   **Threshold sensitivity:** Test how the current configuration performs against a slow, low-frequency brute-force attack (spacing login attempts out to stay under the correlation window) - a common technique used to evade threshold-based detection.
+
+-   **Unblock timing:** A "Host Unblocked by firewall-drop Active Response" event (Rule 652) was observed roughly 10 minutes after the block. I'd want to evaluate whether that timeout is appropriate for a production environment, or whether repeat offenders should require longer or manually-approved unblocks.
+
+-   **False positive handling:** A legitimate user mistyping their password repeatedly could currently trigger the same block as a malicious actor. Tuning the threshold, or adding a secondary signal such as IP reputation context, would reduce that risk in production.
+
 # **Conclusion & Key Takeaways**
 
 This lab successfully demonstrated the integration of Active Directory with modern security operations and threat detection. The combination of centralized AD authentication with Wazuh threat monitoring creates a comprehensive security posture that works seamlessly across Windows and Linux infrastructure.
