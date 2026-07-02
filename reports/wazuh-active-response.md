@@ -2,15 +2,7 @@
 
 **WAZUH ACTIVE RESPONSE + ACTIVE DIRECTORY LAB**
 
-*Cross-Platform Threat Detection & Automated Response*
-
-*Active Directory Integration with Linux Domain Join*
-
-By: Chance Debbs
-
-Date: June 27, 2026
-
-# **Executive Summary**
+# **Summary**
 
 This lab demonstrates an advanced security operations setup combining Active Directory domain management with cross-platform threat detection using Wazuh. The infrastructure integrates Windows Server 2022 with a Linux machine joined to the same Active Directory domain, creating unified security monitoring across endpoints.
 
