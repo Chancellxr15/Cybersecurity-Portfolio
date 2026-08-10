@@ -58,10 +58,4 @@ All simulations are performed only with explicit authorization and never target 
 
 ---
 
-## Contributing
-
-Contributions welcome — add simulation scenarios, detection playbooks, improved metrics, or lessons learned. Prefer small, incremental PRs that update one simulation at a time.
-
----
-
 [← Back to Main Portfolio](../README.md)
