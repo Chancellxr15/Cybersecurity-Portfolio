@@ -17,15 +17,15 @@ Welcome to the Labs section — a hands-on collection of practical cybersecurity
 
 ## Lab Projects
 
-Below are the labs presented as quick cards so you can scan purpose and jump in quickly.
+Below are the labs presented with small visual thumbnails so you can scan purpose and jump in quickly.
 
-| Lab | Description | Link |
-|---|---|---:|
-| 🕵️‍♂️ **Wireshark Network Analysis** — Analyze packet captures, identify protocols, and detect anomalies in traffic. | Packet capture & protocol analysis, anomaly detection. | [Open →](wireshark-lab-report.md)
-| 🖥️ **System Administration Lab** — Practice configuration, user & permission management, and basic security hardening. | System setup, users, permissions, configuration. | [Open →](sys-admin-lab.md)
-| 🧭 **Hosts File Manipulation** — Learn DNS resolution and use hosts file modifications for testing and mapping. | DNS/hosts testing and local mapping. | [Open →](hosts-file-lab.md)
-| 🐍 **Kali Linux Honeypots** — Deploy honeypots, capture attacker behavior, and analyze logs. | Honeypot deployment and log analysis. | [Open →](kali-honeypots.md)
-| 🌐 **OSPF Configuration Lab** — Configure OSPF, build topologies, and validate routing convergence. | OSPF fundamentals and router configuration. | [Open →](ospf-configuration.md)
+| Preview | Lab | Description | Link |
+|---|---|---|---|
+| <img src="assets/wireshark.svg" width="120" alt="Wireshark"> | 🕵️‍♂️ **Wireshark Network Analysis** — Analyze packet captures, identify protocols, and detect anomalies in traffic. | Packet capture & protocol analysis, anomaly detection. | [Open →](wireshark-lab-report.md)
+| <img src="assets/sys-admin.svg" width="120" alt="System Admin"> | 🖥️ **System Administration Lab** — Practice configuration, user & permission management, and basic security hardening. | System setup, users, permissions, configuration. | [Open →](sys-admin-lab.md)
+| <img src="assets/hosts-file.svg" width="120" alt="Hosts File"> | 🧭 **Hosts File Manipulation** — Learn DNS resolution and use hosts file modifications for testing and mapping. | DNS/hosts testing and local mapping. | [Open →](hosts-file-lab.md)
+| <img src="assets/kali-honeypots.svg" width="120" alt="Kali Honeypots"> | 🐍 **Kali Linux Honeypots** — Deploy honeypots, capture attacker behavior, and analyze logs. | Honeypot deployment and log analysis. | [Open →](kali-honeypots.md)
+| <img src="assets/ospf.svg" width="120" alt="OSPF Lab"> | 🌐 **OSPF Configuration Lab** — Configure OSPF, build topologies, and validate routing convergence. | OSPF fundamentals and router configuration. | [Open →](ospf-configuration.md)
 
 ---
 
