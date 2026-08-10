@@ -49,10 +49,4 @@ Pro tip: Use Infrastructure-as-Code (CloudFormation, Terraform) templates from t
 
 ---
 
-## Contributing
-
-Contributions welcome — add deployment scripts, updated AWS best practices, new architecture patterns, or improved hardening checklists. Prefer small, incremental PRs that update one project at a time.
-
----
-
 [← Back to Main Portfolio](../README.md)
