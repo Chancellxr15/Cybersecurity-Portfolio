@@ -48,10 +48,4 @@ Pro tip: Keep assessment artifacts (spreadsheets, matrices, reports) organized s
 
 ---
 
-## Contributing
-
-Contributions welcome — add risk matrices, updated compliance frameworks, case studies, or refined assessment templates. Prefer small, incremental PRs that update one project at a time.
-
----
-
 [← Back to Main Portfolio](../README.md)
