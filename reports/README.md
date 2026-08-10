@@ -50,10 +50,4 @@ Pro tip: Keep SIEM artifacts (rule configurations, dashboards, logs) organized f
 
 ---
 
-## Contributing
-
-Contributions welcome — add detection rule improvements, new report analyses, automation scripts, or updated dashboards. Prefer small, incremental PRs that update one report at a time.
-
----
-
 [← Back to Main Portfolio](../README.md)
