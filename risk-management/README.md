@@ -1,20 +1,25 @@
 # 📋 Risk Management Projects
 
-## Overview
+![Risk header](https://img.shields.io/badge/Risk-Management-FF8C00?style=for-the-badge&logo=security)
 
-This section documents comprehensive risk management assessments and mitigation strategies for mock company scenarios. These projects demonstrate the ability to identify organizational vulnerabilities, develop remediation plans, and implement effective risk control measures.
+Frameworks and project work focused on identifying organizational risk, creating mitigation plans, and aligning security with business objectives.
+
+---
 
 ## What You'll Learn
 
-This documentation covers:
-- **Risk Assessment & Analysis** - Comprehensive identification, evaluation, and prioritization of organizational vulnerabilities and threats
-- **Mitigation Strategy Development** - Creation of actionable remediation plans and risk control measures
-- **Business Impact Analysis** - Understanding risk implications and aligning security solutions with business objectives
-- **Compliance & Documentation** - Proper documentation and reporting of risk assessments and remediation plans
+- Risk assessment and prioritization techniques
+- Development of mitigation strategies and action plans
+- Business impact analysis and executive reporting
+- Compliance mapping and documentation practices
+
+---
 
 ## Projects
 
-- [Final Risk Mitigation Plan](risk-mitigation-plan.md) - Enterprise-level risk assessment and mitigation strategies for a mock healthcare company
+| Project | Objective |
+|---|---|
+| [Final Risk Mitigation Plan](risk-mitigation-plan.md) | Enterprise-level risk assessment and mitigation strategies for a mock healthcare organization. |
 
 ---
 
