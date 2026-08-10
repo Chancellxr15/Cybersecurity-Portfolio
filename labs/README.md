@@ -2,30 +2,21 @@
 
 ![Labs header](https://img.shields.io/badge/Labs-Cybersecurity-0066CC?style=for-the-badge&logo=github)
 
-Welcome to the Labs section — a hands-on collection of practical cybersecurity exercises designed to help you learn by doing. Each lab includes objectives, prerequisites, step-by-step instructions, expected results, and suggested follow-ups.
-
----
-
-## Table of Contents
-
-- [Lab Overview](#lab-overview)
-- [Lab Projects](#lab-projects)
-- [How to Use](#how-to-use)
-- [Contribute or Extend a Lab](#contribute-or-extend-a-lab)
+Welcome to the Labs section — hands-on cybersecurity exercises to learn practical skills through guided, reproducible steps. Click a card to open a lab.
 
 ---
 
 ## Lab Projects
 
-Below are the labs presented with small visual thumbnails so you can scan purpose and jump in quickly.
+Below are the labs with larger visual thumbnails and short, useful detail so you can quickly find what to run next.
 
-| Preview | Lab | Description | Link |
+| Preview | Lab | Objective | Key Topics |
 |---|---|---|---|
-| <img src="assets/wireshark.svg" width="120" alt="Wireshark"> | 🕵️‍♂️ **Wireshark Network Analysis** — Analyze packet captures, identify protocols, and detect anomalies in traffic. | Packet capture & protocol analysis, anomaly detection. | [Open →](wireshark-lab-report.md)
-| <img src="assets/sys-admin.svg" width="120" alt="System Admin"> | 🖥️ **System Administration Lab** — Practice configuration, user & permission management, and basic security hardening. | System setup, users, permissions, configuration. | [Open →](sys-admin-lab.md)
-| <img src="assets/hosts-file.svg" width="120" alt="Hosts File"> | 🧭 **Hosts File Manipulation** — Learn DNS resolution and use hosts file modifications for testing and mapping. | DNS/hosts testing and local mapping. | [Open →](hosts-file-lab.md)
-| <img src="assets/kali-honeypots.svg" width="120" alt="Kali Honeypots"> | 🐍 **Kali Linux Honeypots** — Deploy honeypots, capture attacker behavior, and analyze logs. | Honeypot deployment and log analysis. | [Open →](kali-honeypots.md)
-| <img src="assets/ospf.svg" width="120" alt="OSPF Lab"> | 🌐 **OSPF Configuration Lab** — Configure OSPF, build topologies, and validate routing convergence. | OSPF fundamentals and router configuration. | [Open →](ospf-configuration.md)
+| <img src="assets/wireshark.svg" width="480" alt="Wireshark"> | [🕵️ Wireshark Network Analysis](wireshark-lab-report.md) | Analyze packet captures to identify protocols, performance issues, and anomalies. | Packet capture & filtering, TCP/IP/DNS/HTTP analysis, applying display filters, pcap forensics |
+| <img src="assets/sys-admin.svg" width="480" alt="System Admin"> | [🖥️ System Administration Lab](sys-admin-lab.md) | Practice system configuration, secure user management, and basic hardening. | User & permission management, package/configuration management, service hardening, basic automation |
+| <img src="assets/hosts-file.svg" width="480" alt="Hosts File"> | [🧭 Hosts File Manipulation](hosts-file-lab.md) | Understand DNS resolution and use hosts file modifications for testing and mapping. | DNS resolution flow, hosts file syntax, local domain overrides, testing & validation |
+| <img src="assets/kali-honeypots.svg" width="480" alt="Kali Honeypots"> | [🐍 Kali Linux Honeypots](kali-honeypots.md) | Deploy lightweight honeypots to capture attacker behavior and analyze logs. | Honeypot setup (Cowrie/Conpot), log collection, attacker behavior analysis, containment |
+| <img src="assets/ospf.svg" width="480" alt="OSPF Lab"> | [🌐 OSPF Configuration Lab](ospf-configuration.md) | Configure OSPF across routers, build a test topology, and validate route convergence. | OSPF basics, router config examples, network topology design, troubleshooting convergence |
 
 ---
 
@@ -33,57 +24,30 @@ Below are the labs presented with small visual thumbnails so you can scan purpos
 
 Each lab contains:
 
-- Clear objectives and prerequisites
+- Clear objective and prerequisites
 - Step-by-step setup and execution instructions
 - Expected outputs and verification steps
-- Screenshots or packet/log snippets where relevant
-- Post-lab exercises and references
+- Example commands, configuration snippets, and relevant screenshots or pcap/log snippets
+- Post-lab exercises and references for deeper study
 
-Tip: Clone the repo, create a snapshot of your environment (VM snapshot or backup), and follow labs in a disposable/test network.
+Tip: Run labs inside isolated VMs or a controlled test network. Create snapshots before making persistent changes so you can revert quickly.
 
 ---
 
 ## How to Use
 
-1. Pick a lab from the table above.
-2. Read the prerequisites and ensure you have the required tools installed (e.g., Wireshark, virtual machines, Kali).  
-3. Follow the steps in the lab file and take screenshots or exports of findings (pcap, logs).  
-4. When finished, review the "Analysis" or "Results" section in the lab file and compare expected behaviors.  
+1. Choose a lab from the list above and click the title to open it.  
+2. Read the prerequisites and ensure required tools are installed (e.g., Wireshark, virtual machines, Kali).  
+3. Follow the step-by-step instructions, copy commands into a terminal, and capture outputs (pcap files, logs, screenshots).  
+4. Use the "Expected Results" or "Analysis" sections in the lab to verify your findings and learn from any differences.  
 
-Pro tip: Use a VM snapshot for quick rollback when experimenting with network or system changes.
-
----
-
-## Contribute or Extend a Lab
-
-Want to add a lab, improve instructions, or include more visuals? Contributions are welcome:
-
-- Add more detail to the lab file (screenshots, pcap links, configurations).  
-- Add a short "Quick Start" that shows the minimal commands to reproduce the setup.  
-- Open a pull request with your updates and include sample outputs.
+Pro tip: Keep lab artifacts (pcap, logs) in a separate folder (e.g., labs/artifacts/) so you can reference them later.
 
 ---
 
-## Styling & Preview
+## Contributing
 
-To make lab files easier to browse on GitHub:
-
-- Add a short header to each lab file with a one-line summary and a "Quick Start".  
-- Include at least one small screenshot or thumbnail and the pcap/log snippet if applicable.  
-- Use fenced code blocks for commands and small pieces of config.
-
-Example header to add at the top of a lab file:
-
-```markdown name=lab-header-template.md
----
-summary: "Quick one-line summary of this lab"
-quick_start: |
-  # Quick Start
-  1. Prepare environment
-  2. Run: `sudo tcpdump -i eth0 -w capture.pcap`
-  3. Open capture in Wireshark and follow filters in the lab
----
-```
+Contributions welcome — add screenshots, pcap excerpts, clarified steps, or a short "Quick Start" at the top of a lab. Prefer small, incremental PRs that update one lab at a time.
 
 ---
 
