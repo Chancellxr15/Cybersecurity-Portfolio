@@ -1,89 +1,33 @@
 # 🎭 Attack Simulations & Security Testing
 
-Security testing exercises including phishing campaigns, credential harvesting simulations, and SQL injection attacks. These projects demonstrate offensive security knowledge and testing methodology.
+![Simulations header](https://img.shields.io/badge/Simulations-RedTeam-DB4437?style=for-the-badge&logo=metasploit)
+
+Controlled offensive security exercises to evaluate detection, response, and organizational readiness.
 
 ---
 
-## Security Testing Projects
+## Simulation Projects
 
-### Phishing Campaign Documentation
-**File:** [`phishing-campaign.md`](phishing-campaign.md)
-**Objective:** Comprehensive documentation of a controlled phishing campaign for security awareness and testing.
-**Key Topics:**
-- Campaign planning and objectives
-- Target audience selection
-- Email template design
-- Phishing framework setup
-- Social engineering techniques
-- Click-through tracking and analysis
-- User response metrics
-- Security awareness recommendations
-- Remediation and education
+| Preview | Simulation | Objective |
+|---|---|---|
+| <img src="../assets/phishing.svg" width="480" alt="Phishing"> | [Phishing Campaign Documentation](phishing-campaign.md) | Document a controlled phishing exercise to measure awareness and response. |
+| <img src="../assets/harvester.svg" width="480" alt="Harvester"> | [Credential Harvester Simulation](credential-harvester.md) | Simulate credential harvesting safely to test detection and containment. |
+| <img src="../assets/sql-injection.svg" width="480" alt="SQLi"> | [SQL Injection Attack](sql-injection-attack.md) | Hands-on practice exploiting and mitigating SQL injection in a lab environment. |
 
 ---
 
-### Credential Harvester Simulation
-**File:** [`credential-harvester.md`](credential-harvester.md)
-**Objective:** Controlled simulation of credential harvesting attacks to test detection and response capabilities.
-**Key Topics:**
-- Credential harvesting techniques
-- Fake authentication interface setup
-- Traffic capture and analysis
-- Detection mechanisms
-- Credential storage and handling
-- Incident response workflows
-- SIEM detection rules
-- User notification and remediation
+## Methodology & Compliance
+
+- Define scope and rules of engagement
+- Execute controlled tests in authorized environments
+- Monitor, log, and analyze results
+- Produce actionable reports and remediation guidance
 
 ---
 
-### SQL Injection Attack
-**File:** [`sql-injection-attack.md`](sql-injection-attack.md)
-**Objective:** Hands-on practice with SQL injection vulnerabilities and exploitation techniques in controlled environments.
-**Key Topics:**
-- SQL injection fundamentals
-- Vulnerability identification
-- Exploitation techniques
-- Data extraction methods
-- Blind SQL injection
-- Time-based exploitation
-- Database enumeration
-- Mitigation and prevention
-- Prepared statements and parameterized queries
-- Input validation and sanitization
+## Legal & Ethical Notes
 
----
-
-## 🔍 Testing Methodology
-
-### Scope Definition
-- Clear objectives and rules of engagement
-- Authorized testing environment
-- Documented targets and limitations
-- Stakeholder communication
-
-### Execution
-- Controlled attack simulation
-- Real-time monitoring and logging
-- Incident detection assessment
-- Response time measurement
-
-### Analysis & Reporting
-- Attack timeline documentation
-- Effectiveness assessment
-- Detection and response evaluation
-- Recommendations for improvements
-
----
-
-## ⚠️ Legal & Ethical Compliance
-
-- All simulations conducted in **authorized testing environments only**
-- Proper approval and documentation obtained
-- No production systems targeted
-- Results used for **defensive improvement purposes**
-- All data handled according to security policies
-- No unauthorized access or data exfiltration
+All simulations are performed only with explicit authorization and never target production systems. Results are used to strengthen defenses and improve detection.
 
 ---
 
