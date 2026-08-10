@@ -1,19 +1,25 @@
-# ☁️ Cloud Projects
+# ☁️ Cloud Security & Infrastructure
 
-## Overview
+![Cloud header](https://img.shields.io/badge/Cloud-Security-00A3E0?style=for-the-badge&logo=amazon-aws)
 
-This section documents cloud infrastructure projects demonstrating hands-on experience with AWS environments, secure architecture design, and cloud security best practices implementation.
+Hands-on cloud security projects covering secure AWS architecture, hardening, and practical configurations.
+
+---
+
+## Featured Project
+
+| Preview | Project | Objective | Key Topics |
+|---|---|---|---|
+| <img src="../assets/aws-architecture.svg" width="480" alt="AWS"> | [Secure AWS Environment](aws-environment.md) | Design and deploy a secure AWS environment with recommended controls and automation. | VPC design, IAM hardening, logging & monitoring |
+
+---
 
 ## What You'll Learn
 
-This documentation covers:
-- **AWS Environment Setup & Configuration** - Secure AWS infrastructure design, deployment, and architectural patterns
-- **Cloud Security Architecture** - Implementation of security controls, compliance measures, and best practices in cloud environments
-- **Infrastructure Hardening** - Security configuration and optimization of cloud resources
-
-## Projects
-
-- [Secure AWS Environment](aws-environment.md) - Technical architecture and configuration of a secure AWS infrastructure
+- Secure account and identity management (IAM)
+- Network segmentation and secure VPC design
+- Logging, monitoring, and alerting best practices
+- Infrastructure-as-Code examples and hardening checklists
 
 ---
 
