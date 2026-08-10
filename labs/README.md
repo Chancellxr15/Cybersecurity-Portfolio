@@ -17,15 +17,15 @@ Welcome to the Labs section — a hands-on collection of practical cybersecurity
 
 ## Lab Projects
 
-Below are the labs presented as quick cards so you can scan difficulty, time, and objectives at a glance.
+Below are the labs presented as quick cards so you can scan purpose and jump in quickly.
 
-| Lab | Objective | Difficulty | Est. Time | Link |
-|---|---|---:|---:|---|
-| 🕵️‍♂️ Wireshark Network Analysis | Analyze packet captures, identify protocols, and detect anomalies in traffic. | Intermediate | 1–2 hours | [Open →](wireshark-lab-report.md)
-| 🖥️ System Administration Lab | Practice configuration, user & permission management, and security hardening. | Intermediate | 1–3 hours | [Open →](sys-admin-lab.md)
-| 🧭 Hosts File Manipulation | Learn DNS resolution and use hosts file modifications for testing. | Beginner | 20–40 minutes | [Open →](hosts-file-lab.md)
-| 🐍 Kali Linux Honeypots | Deploy honeypots, capture attacker behavior, and analyze logs. | Advanced | 2–4 hours | [Open →](kali-honeypots.md)
-| 🌐 OSPF Configuration Lab | Configure OSPF, build topologies, and validate routing convergence. | Intermediate | 1–2 hours | [Open →](ospf-configuration.md)
+| Lab | Description | Link |
+|---|---|---:|
+| 🕵️‍♂️ **Wireshark Network Analysis** — Analyze packet captures, identify protocols, and detect anomalies in traffic. | Packet capture & protocol analysis, anomaly detection. | [Open →](wireshark-lab-report.md)
+| 🖥️ **System Administration Lab** — Practice configuration, user & permission management, and basic security hardening. | System setup, users, permissions, configuration. | [Open →](sys-admin-lab.md)
+| 🧭 **Hosts File Manipulation** — Learn DNS resolution and use hosts file modifications for testing and mapping. | DNS/hosts testing and local mapping. | [Open →](hosts-file-lab.md)
+| 🐍 **Kali Linux Honeypots** — Deploy honeypots, capture attacker behavior, and analyze logs. | Honeypot deployment and log analysis. | [Open →](kali-honeypots.md)
+| 🌐 **OSPF Configuration Lab** — Configure OSPF, build topologies, and validate routing convergence. | OSPF fundamentals and router configuration. | [Open →](ospf-configuration.md)
 
 ---
 
@@ -68,9 +68,22 @@ Want to add a lab, improve instructions, or include more visuals? Contributions 
 
 To make lab files easier to browse on GitHub:
 
-- Add a short header to each lab file with "Difficulty" and "Estimated time".  
-- Include at least one small screenshot and the pcap/log snippet if applicable.  
+- Add a short header to each lab file with a one-line summary and a "Quick Start".  
+- Include at least one small screenshot or thumbnail and the pcap/log snippet if applicable.  
 - Use fenced code blocks for commands and small pieces of config.
+
+Example header to add at the top of a lab file:
+
+```markdown name=lab-header-template.md
+---
+summary: "Quick one-line summary of this lab"
+quick_start: |
+  # Quick Start
+  1. Prepare environment
+  2. Run: `sudo tcpdump -i eth0 -w capture.pcap`
+  3. Open capture in Wireshark and follow filters in the lab
+---
+```
 
 ---
 
