@@ -45,10 +45,4 @@ Pro tip: Keep lab artifacts (pcap, logs) in a separate folder (e.g., labs/artifa
 
 ---
 
-## Contributing
-
-Contributions welcome — add screenshots, pcap excerpts, clarified steps, or a short "Quick Start" at the top of a lab. Prefer small, incremental PRs that update one lab at a time.
-
----
-
 [← Back to Main Portfolio](../README.md)
