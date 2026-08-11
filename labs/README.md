@@ -32,16 +32,6 @@ Each lab contains:
 
 ---
 
-## How to Use
-
-1. **Pick a lab** from the table above and click the title to open it.
-2. **Check prerequisites** — make sure required tools are installed (e.g., Wireshark, virtual machines, Kali).
-3. **Follow the steps** — copy commands into a terminal and capture outputs (pcap files, logs, screenshots).
-4. **Verify your work** using the "Expected Results" or "Analysis" section in each lab.
-
-> [!NOTE]
-> Keep lab artifacts (pcap, logs) in a separate folder (e.g., `labs/artifacts/`) so you can reference them later.
-
 ## 🛠️ Tools Covered
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
