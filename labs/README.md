@@ -1,47 +1,54 @@
 # 🔬 Hands-On Lab Exercises
 
-![Labs header](https://img.shields.io/badge/Labs-Cybersecurity-0066CC?style=for-the-badge&logo=github)
+![Labs](https://img.shields.io/badge/Labs-Cybersecurity-2563EB?style=for-the-badge&logo=github)
 
-Welcome to the Labs section — hands-on cybersecurity exercises to learn practical skills through guided, reproducible steps. Click a card to open a lab.
+Hands-on cybersecurity exercises to learn practical skills through guided, reproducible steps. Click a lab title to open it.
 
 ---
 
 ## Lab Projects
 
-Below are the labs with larger visual thumbnails and short, useful detail so you can quickly find what to run next.
-
-| Preview | Lab | Objective | Key Topics |
-|---|---|---|---|
-| <img src="assets/wireshark.svg" width="240" alt="Wireshark"> | [🕵️ Wireshark Network Analysis](wireshark-lab-report.md) | Analyze packet captures to identify protocols, performance issues, [...]
-| <img src="assets/sys-admin.svg" width="240" alt="System Admin"> | [🖥️ System Administration Lab](sys-admin-lab.md) | Practice system configuration, secure user management, and basic hardeni[...]
-| <img src="assets/hosts-file.svg" width="240" alt="Hosts File"> | [🧭 Hosts File Manipulation](hosts-file-lab.md) | Understand DNS resolution and use hosts file modifications for testing and ma[...]
-| <img src="assets/kali-honeypots.svg" width="240" alt="Kali Honeypots"> | [🐍 Kali Linux Honeypots](kali-honeypots.md) | Deploy lightweight honeypots to capture attacker behavior and analyze lo[...]
-| <img src="assets/ospf.svg" width="240" alt="OSPF Lab"> | [🌐 OSPF Configuration Lab](ospf-configuration.md) | Configure OSPF across routers, build a test topology, and validate route convergen[...]
+| Preview | Lab |
+|:---:|---|
+| <img src="assets/wireshark.svg" width="130" alt="Wireshark"> | **[📡 Wireshark Network Analysis](wireshark-lab-report.md)**<br>Analyze packet captures to identify protocols, performance issues, and anomalies.<br><br>`Packet Capture` `Protocol Analysis` `Traffic Patterns` `Anomaly Detection`<br><br>**[Open Lab →](wireshark-lab-report.md)** |
+| <img src="assets/sys-admin.svg" width="130" alt="System Admin"> | **[🖥️ System Administration Lab](sys-admin-lab.md)**<br>Hands-on practice with system configuration, user management, and security hardening.<br><br>`System Configuration` `User Management` `Hardening` `Automation`<br><br>**[Open Lab →](sys-admin-lab.md)** |
+| <img src="assets/hosts-file.svg" width="130" alt="Hosts File"> | **[🧭 Hosts File Manipulation](hosts-file-lab.md)**<br>Understand DNS resolution and use hosts file modifications for network testing.<br><br>`DNS Resolution` `Hosts File Config` `Network Mapping` `Validation`<br><br>**[Open Lab →](hosts-file-lab.md)** |
+| <img src="assets/kali-honeypots.svg" width="130" alt="Kali Honeypots"> | **[🍯 Kali Linux Honeypots](kali-honeypots.md)**<br>Deploy honeypots to capture attacker behavior and analyze the resulting logs.<br><br>`Honeypot Setup` `Attack Detection` `Behavior Analysis` `Log Analysis`<br><br>**[Open Lab →](kali-honeypots.md)** |
+| <img src="assets/ospf.svg" width="130" alt="OSPF Lab"> | **[🌐 OSPF Configuration Lab](ospf-configuration.md)**<br>Configure OSPF across routers, build a test topology, and validate route convergence.<br><br>`OSPF Fundamentals` `Router Config` `Topology` `Convergence`<br><br>**[Open Lab →](ospf-configuration.md)** |
 
 ---
 
 ## Lab Overview
 
 Each lab contains:
-
 - Clear objective and prerequisites
 - Step-by-step setup and execution instructions
 - Expected outputs and verification steps
 - Example commands, configuration snippets, and relevant screenshots or pcap/log snippets
 - Post-lab exercises and references for deeper study
 
-Tip: Run labs inside isolated VMs or a controlled test network. Create snapshots before making persistent changes so you can revert quickly.
+> [!TIP]
+> Run labs inside isolated VMs or a controlled test network. Create snapshots before making persistent changes so you can revert quickly.
 
 ---
 
 ## How to Use
 
-1. Choose a lab from the list above and click the title to open it.
-2. Read the prerequisites and ensure required tools are installed (e.g., Wireshark, virtual machines, Kali).
-3. Follow the step-by-step instructions, copy commands into a terminal, and capture outputs (pcap files, logs, screenshots).
-4. Use the "Expected Results" or "Analysis" sections in the lab to verify your findings and learn from any differences.
+1. **Pick a lab** from the table above and click the title to open it.
+2. **Check prerequisites** — make sure required tools are installed (e.g., Wireshark, virtual machines, Kali).
+3. **Follow the steps** — copy commands into a terminal and capture outputs (pcap files, logs, screenshots).
+4. **Verify your work** using the "Expected Results" or "Analysis" section in each lab.
 
-Pro tip: Keep lab artifacts (pcap, logs) in a separate folder (e.g., labs/artifacts/) so you can reference them later.
+> [!NOTE]
+> Keep lab artifacts (pcap, logs) in a separate folder (e.g., `labs/artifacts/`) so you can reference them later.
+
+## 🛠️ Tools Covered
+
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![OSPF](https://img.shields.io/badge/OSPF-2563EB?style=flat-square)
+![DNS](https://img.shields.io/badge/DNS-2563EB?style=flat-square)
+![Linux/Windows CLI](https://img.shields.io/badge/Linux%2FWindows_CLI-475569?style=flat-square)
 
 ---
 
