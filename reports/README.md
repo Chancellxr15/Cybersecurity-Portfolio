@@ -12,8 +12,14 @@ Below are the reports with larger visual thumbnails and short, useful detail so 
 
 | Preview | Report | Objective | Key Topics |
 |---|---|---|---|
-| <img src="../assets/siem-dashboard.svg" width="480" alt="SIEM"> | [Final SIEM Report](final-siem-report.md) | End-to-end analysis of security events, detections, and recommendations. | Log analysis, threat detection, incident response |
-| <img src="../assets/wazuh.svg" width="480" alt="Wazuh"> | [Wazuh Active Response & AD Lab](wazuh-active-response.md) | Demonstrate automated threat response and Active Directory integration. | Automation, threat response, log ingestion |
+| <div style="width:240px;text-align:center">
+  <img src="../assets/siem-dashboard.svg" width="240" alt="SIEM">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Log analysis · Detection · Recommendations</div>
+  </div> | [Final SIEM Report](final-siem-report.md) | End-to-end analysis of security events, detections, and recommendations. | Log analy[...] 
+| <div style="width:240px;text-align:center">
+  <img src="../assets/wazuh.svg" width="240" alt="Wazuh">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Wazuh · Active response · AD integration</div>
+  </div> | [Wazuh Active Response & AD Lab](wazuh-active-response.md) | Demonstrate automated threat response and Active Directory integration. | A[...] 
 
 ---
 
