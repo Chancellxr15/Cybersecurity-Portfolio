@@ -12,7 +12,7 @@ Below are the cloud security projects with larger visual thumbnails and short, u
 
 | Preview | Project | Objective | Key Topics |
 |---|---|---|---|
-| <img src="../assets/aws-architecture.svg" width="480" alt="AWS"> | [Secure AWS Environment](aws-environment.md) | Design and deploy a secure AWS environment with recommended controls and automation. | IAM, VPC security, logging, monitoring |
+| <img src="../assets/aws-architecture.svg" width="240" alt="AWS"> | [Secure AWS Environment](aws-environment.md) | Design and deploy a secure AWS environment with recommended controls and automat[...] 
 
 ---
 
