@@ -12,11 +12,11 @@ Below are the labs with larger visual thumbnails and short, useful detail so you
 
 | Preview | Lab | Objective | Key Topics |
 |---|---|---|---|
-| <img src="assets/wireshark.svg" width="480" alt="Wireshark"> | [🕵️ Wireshark Network Analysis](wireshark-lab-report.md) | Analyze packet captures to identify protocols, performance issues, and security anomalies. | Packet analysis, protocol inspection, traffic flow |
-| <img src="assets/sys-admin.svg" width="480" alt="System Admin"> | [🖥️ System Administration Lab](sys-admin-lab.md) | Practice system configuration, secure user management, and basic hardening techniques. | User management, permissions, system hardening |
-| <img src="assets/hosts-file.svg" width="480" alt="Hosts File"> | [🧭 Hosts File Manipulation](hosts-file-lab.md) | Understand DNS resolution and use hosts file modifications for testing and mapping. | DNS resolution, network mapping, local configuration |
-| <img src="assets/kali-honeypots.svg" width="480" alt="Kali Honeypots"> | [🐍 Kali Linux Honeypots](kali-honeypots.md) | Deploy lightweight honeypots to capture attacker behavior and analyze logs. | Threat detection, honeypot deployment, log analysis |
-| <img src="assets/ospf.svg" width="480" alt="OSPF Lab"> | [🌐 OSPF Configuration Lab](ospf-configuration.md) | Configure OSPF across routers, build a test topology, and validate route convergence. | Routing protocols, network topology, convergence testing |
+| <img src="assets/wireshark.svg" width="240" alt="Wireshark"> | [🕵️ Wireshark Network Analysis](wireshark-lab-report.md) | Analyze packet captures to identify protocols, performance issues, [...]
+| <img src="assets/sys-admin.svg" width="240" alt="System Admin"> | [🖥️ System Administration Lab](sys-admin-lab.md) | Practice system configuration, secure user management, and basic hardeni[...]
+| <img src="assets/hosts-file.svg" width="240" alt="Hosts File"> | [🧭 Hosts File Manipulation](hosts-file-lab.md) | Understand DNS resolution and use hosts file modifications for testing and ma[...]
+| <img src="assets/kali-honeypots.svg" width="240" alt="Kali Honeypots"> | [🐍 Kali Linux Honeypots](kali-honeypots.md) | Deploy lightweight honeypots to capture attacker behavior and analyze lo[...]
+| <img src="assets/ospf.svg" width="240" alt="OSPF Lab"> | [🌐 OSPF Configuration Lab](ospf-configuration.md) | Configure OSPF across routers, build a test topology, and validate route convergen[...]
 
 ---
 
