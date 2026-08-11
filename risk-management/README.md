@@ -1,53 +1,25 @@
-# 📋 Risk Management & Compliance
+# 📋 Risk Management Projects
 
-![Risk header](https://img.shields.io/badge/Risk-Management-FF8C00?style=for-the-badge&logo=security)
+![Risk Management](https://img.shields.io/badge/Risk-Management-7C3AED?style=for-the-badge&logo=github)
 
-Comprehensive frameworks and project work focused on identifying organizational risk, creating mitigation plans, and aligning security with business objectives.
+Comprehensive risk management assessments and mitigation strategies for mock company scenarios, demonstrating the ability to identify organizational vulnerabilities and develop remediation plans.
 
 ---
 
 ## Projects
 
-Below are the risk management projects with key details and objectives.
-
-| Preview | Project | Objective | Key Topics |
-|---|---|---|---|
-| <div style="width:240px;text-align:center">
-  <img src="../assets/risk-assessment.svg" width="240" alt="Risk Assessment">
-  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Risk assessment · Mitigation · Compliance</div>
-  </div> | [Final Risk Mitigation Plan](risk-mitigation-plan.md) | Enterprise-level risk assessment and mitigation strategies f[...] | 
-
----
-
-## Project Overview
-
-Each project contains:
-
-- Clear objective and business context
-- Risk assessment methodology and analysis
-- Mitigation strategies and implementation roadmaps
-- Business impact analysis and executive summaries
-- Compliance mapping and documentation
-
----
-
-## How to Use
-
-1. Choose a project from the list above and click the title to open it.
-2. Review the business context and risk landscape to understand the scenario.
-3. Follow the risk assessment framework and analysis methodology.
-4. Study the mitigation strategies and use them as templates for your own risk assessments.
-
-Pro tip: Keep assessment artifacts (spreadsheets, matrices, reports) organized so you can build upon them for future projects.
+| Preview | Project |
+|:---:|---|
+| <img src="assets/risk-mitigation.svg" width="130" alt="Final Risk Mitigation Plan"> | **[📋 Final Risk Mitigation Plan](risk-mitigation-plan.md)**<br>Enterprise-level risk assessment and mitigation strategies for a mock healthcare company.<br><br>`Risk Assessment` `Mitigation Planning` `Business Impact` `Compliance`<br><br>**[Open Report →](risk-mitigation-plan.md)** |
 
 ---
 
 ## What You'll Learn
 
-- Risk assessment and prioritization techniques
-- Development of mitigation strategies and action plans
-- Business impact analysis and executive reporting
-- Compliance mapping and documentation practices
+- **Risk Assessment & Analysis** — Identification, evaluation, and prioritization of vulnerabilities and threats
+- **Mitigation Strategy Development** — Actionable remediation plans and risk control measures
+- **Business Impact Analysis** — Aligning security solutions with business objectives
+- **Compliance & Documentation** — Proper reporting of risk assessments and remediation plans
 
 ---
 
