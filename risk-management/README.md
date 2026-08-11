@@ -12,7 +12,10 @@ Below are the risk management projects with key details and objectives.
 
 | Preview | Project | Objective | Key Topics |
 |---|---|---|---|
-| <img src="../assets/risk-assessment.svg" width="480" alt="Risk Assessment"> | [Final Risk Mitigation Plan](risk-mitigation-plan.md) | Enterprise-level risk assessment and mitigation strategies for a mock healthcare organization. | Risk assessment, mitigation planning, compliance |
+| <div style="width:240px;text-align:center">
+  <img src="../assets/risk-assessment.svg" width="240" alt="Risk Assessment">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Risk assessment · Mitigation · Compliance</div>
+  </div> | [Final Risk Mitigation Plan](risk-mitigation-plan.md) | Enterprise-level risk assessment and mitigation strategies f[...] | 
 
 ---
 
