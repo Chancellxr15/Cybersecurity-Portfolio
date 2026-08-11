@@ -12,9 +12,18 @@ Below are the attack simulations with larger visual thumbnails and short, useful
 
 | Preview | Simulation | Objective | Key Topics |
 |---|---|---|---|
-| <img src="../assets/phishing.svg" width="480" alt="Phishing"> | [Phishing Campaign Documentation](phishing-campaign.md) | Document a controlled phishing exercise to measure awareness and response capabilities. | Social engineering, awareness testing, metrics |
-| <img src="../assets/harvester.svg" width="480" alt="Harvester"> | [Credential Harvester Simulation](credential-harvester.md) | Simulate credential harvesting safely to test detection and containment controls. | Credential attacks, detection tuning, containment |
-| <img src="../assets/sql-injection.svg" width="480" alt="SQLi"> | [SQL Injection Attack](sql-injection-attack.md) | Hands-on practice exploiting and mitigating SQL injection in a lab environment. | Web vulnerabilities, remediation, defense techniques |
+| <div style="width:240px;text-align:center">
+  <img src="../assets/phishing.svg" width="240" alt="Phishing">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Phishing simulation · Awareness · Reporting</div>
+  </div> | [Phishing Campaign Documentation](phishing-campaign.md) | Document a controlled phishing exercise to measure awareness and response. | Phishing, awareness, reporting |
+| <div style="width:240px;text-align:center">
+  <img src="../assets/harvester.svg" width="240" alt="Harvester">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: Credential harvesting · Detection · Containment</div>
+  </div> | [Credential Harvester Simulation](credential-harvester.md) | Simulate credential harvesting safely to test detection and containment. | Credential harvesting, detection |
+| <div style="width:240px;text-align:center">
+  <img src="../assets/sql-injection.svg" width="240" alt="SQLi">
+  <div style="font-size:0.85em;margin-top:6px;background:#f6f8fa;padding:4px;border-radius:4px">Key topics: SQL injection · Input validation · Remediation</div>
+  </div> | [SQL Injection Attack](sql-injection-attack.md) | Hands-on practice exploiting and mitigating SQL injection in a lab environment. | SQLi, input validation |
 
 ---
 
